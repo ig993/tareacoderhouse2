@@ -24,6 +24,7 @@ section {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+ /* aquí eventualmente irá una imagen como fondo de pantalla */
 .musicman {
     background-image: url(Users/ignaciogabler/Desktop/Proyecto%20Sitio%20web/Sitio%20web/proyecto2-/Assets/IMG/fondodepantallabeck.jpeg?version%3D1715013439348);
     background-repeat: no-repeat;
