@@ -3,13 +3,13 @@ body {
     font-family:"Tilt Neon", Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(https://file+.vscode-resource.vscode-cdn.net/Users/ignaciogabler/Desktop/Proyecto%20Sitio%20web/Sitio%20web/proyecto2-/Assets/IMG/fondodepantallabeck.jpeg?version%3D1715013439348);   
+    background-image: url(../img/fondodesitio.jpg);   
     background-size: cover;
     background-position: center;
 }
     
 header {
-    background-color: rgb(113, 113, 199); /* Color de fondo inicial */
+    background-color: rgb(93, 93, 95); /* Color de fondo inicial */
     animation-name: change-color;  
     animation-duration: 5s;
     animation-timing-function: linear;
@@ -21,11 +21,11 @@ header {
     padding: 10px 0;
 }
 header:hover {
-    background-color: rgb(116, 55, 116); /* Color de fondo al pasar el cursor */
+    background-color: rgb(71, 66, 71); /* Color de fondo al pasar el cursor */
   }
   
 nav {
-    background-color: #f4f4f4;
+    background-color: #494747;
     text-align: center;
     padding: 10px 0;
 }
@@ -110,16 +110,17 @@ footer p {
     height: 100px;
 }
 .boton {
-    background-color: #4CAF50;
-    color: #fff;
+    display: inline-block;
     padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-}
-.boton:hover {
-    background-color: #45a049;
+    background-color: #e70606;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton:hover {
+    background-color: #5e0e0e;
 }
 /* Despliegue de productos en sección audio pro */ 
 .product {
