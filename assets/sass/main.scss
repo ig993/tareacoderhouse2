@@ -56,8 +56,8 @@ body {
   margin-top: 20px;
 }
 
-// Estilos para los productos
-.product {
+// Anidación
+.product h2{
   background-color: #fff;
   border: 1px solid map-get($grayscale, 300);
   padding: 20px;

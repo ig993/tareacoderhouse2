@@ -1,4 +1,18 @@
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+    /* Tus estilos específicos para dispositivos de escritorio aquí */
+  }
+  
+  /* Tablets */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
+  }
+  
+  /* Teléfono */
+  @media only screen and (max-width: 767px) {
+
+  }
+  
 body {
     font-family:"Tilt Neon", Arial, sans-serif;
     margin: 0;
@@ -26,11 +40,16 @@ header:hover {
   
 nav {
     background-color: #494747;
+    animation-name: change-color;  
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
     text-align: center;
     padding: 10px 0;
 }
 nav:hover {
-    background-color: rgb(241, 240, 240); 
+    background-color: rgb(114, 110, 110); 
 }
 section {
     padding: 20px;
