@@ -1,4 +1,19 @@
-/* Desktop */
+header {
+
+    background-color: rgb(255, 255, 255);
+    nav {
+        ul{
+         li{
+            list-style-type: none;
+         }
+         a {
+            &:hover{
+                text-decoration: underline;
+            }
+         }
+        }
+    }
+}/* Desktop */
 @media only screen and (min-width: 1024px) {
     /* Tus estilos específicos para dispositivos de escritorio aquí */
   }
@@ -17,7 +32,7 @@ body {
     font-family:"Tilt Neon", Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(../img/fondodesitio.jpg);   
+    background-image: url(../assets/img/fondodelsitio.jpeg);   
     background-size: cover;
     background-position: center;
 }
