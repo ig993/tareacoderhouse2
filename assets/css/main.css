@@ -9,25 +9,28 @@ body {
 }
     
 header {
-    background-color: rgb(93, 93, 95); /* Color de fondo inicial */
+    background-color: rgb(153, 153, 155); /* Color de fondo inicial */
     animation-name: change-color;  
     animation-duration: 5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
     transition: background 1s linear; 
-    color: #fff;
+    color: #000000;
     text-align: center;
     padding: 10px 0;
 }
 header:hover {
-    background-color: rgb(71, 66, 71); /* Color de fondo al pasar el cursor */
+    background-color: rgb(80, 80, 80); /* Color de fondo al pasar el cursor */
   }
   
 nav {
     background-color: #494747;
     text-align: center;
     padding: 10px 0;
+}
+nav:hover {
+    background-color: rgb(241, 240, 240); 
 }
 section {
     padding: 20px;
@@ -81,10 +84,10 @@ footer p {
 .contacto {
     max-width: 600px;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: #9e9a9a;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(255, 252, 252, 0.1);
 }
 .contacto h2 {
     margin-top: 0;
