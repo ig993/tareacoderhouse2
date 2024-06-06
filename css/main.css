@@ -3,16 +3,28 @@
 @media only screen and (min-width: 1024px) {
   /* Tus estilos específicos para dispositivos de escritorio aquí */
 }
+
+@media only screen and (max-width: 768px) {
+
+	#carouselServices {
+		width: 100% !important;
+		.sr-only {
+			display: none;
+		}
+	}
+	
+}
 /* Tablets */
 /* Teléfono */
 body {
-  font-family: "Tilt Neon", Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-image: url(../assets/img/fondodelsitio.jpeg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+	font-family: "Tilt Neon", Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url(../assets/img/fondodelsitio_alpha.png);
+	background-size: 125%;
+	background-position: center;
+	background-repeat: repeat-y;
+	background-color: rgb(153, 153, 155);
 }
 
 header {
@@ -48,10 +60,16 @@ nav:hover {
 }
 
 section {
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  padding: 1.5em;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-around; */
+  
+  /* background-image: url(../assets/img/fondodelsitio_alpha.png); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-y;
+  height: max-content;
 }
 
 /* aquí eventualmente irá una imagen como fondo de pantalla */
@@ -80,14 +98,15 @@ section {
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 0px 0;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  height: 3em;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 0.25em 0;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	height: 3em;
+	margin-top: 1em;
 }
 
 footer p {
@@ -182,7 +201,13 @@ footer p {
   opacity: 0.9;
 }
 
-.carrusel-caption {
-  width: 100%;
+#carouselServices {
+	width: 70%;
 }
+
+#carouselServices .carousel-inner .carousel-item img {
+	border-top: solid 1px #EEE;
+	border-bottom: solid 1px #EEE;
+}
+
 /*# sourceMappingURL=main.css.map */

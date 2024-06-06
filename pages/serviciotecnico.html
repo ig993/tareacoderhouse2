@@ -1,95 +1,106 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Servicio Técnico de instrumentos musicales y equipos de audio."/>
 
-  <title>Tienda Online</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-      <!--CDN Bootstrap CSS-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tilt+Neon&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/main.css">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Servicio Técnico de instrumentos musicales y equipos de audio." />
+
+	<title>Tienda Online</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<!--CDN Bootstrap CSS-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tilt+Neon&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="../css/main.css">
 
 </head>
+
 <body>
-    <header>
-        <h1>Servicio Técnico de Instrumentos Musicales</h1>
-    </header>
-    <nav>
-        <a href="../index.html">Inicio</a> |
-        <a href="serviciotecnico.html">Servicio Tecnico</a> |
-        <a href="aula.html">Aula</a> |
-        <a href="audiopro.html">Audiopro</a> |
-        <a href="contacto.html">Contacto</a>
-    </nav>
-    <section id="servicios">
+	<header>
+		<h1>Servicio Técnico de Instrumentos Musicales</h1>
+	</header>
+	<nav>
+		<a href="../index.html">Inicio</a> |
+		<a href="serviciotecnico.html">Servicio Tecnico</a> |
+		<a href="aula.html">Aula</a> |
+		<a href="audiopro.html">Audiopro</a> |
+		<a href="contacto.html">Contacto</a>
+	</nav>
+	<section id="servicios">
+		<div class="row justify-content-center">
+			<h2 class="text-center">Nuestros Servicios</h2>
+			<div id="carouselServices" class="carousel slide" data-ride="carousel" data-wrap="true">
+				<!-- Indicadores -->
+				<ol class="carousel-indicators">
+					<li data-target="#carouselServices" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselServices" data-slide-to="1"></li>
+					<li data-target="#carouselServices" data-slide-to="2"></li>
+				</ol>
 
-  <div class="container">
-    <h2 class="text-center">Nuestros Servicios</h2>
-    <div id="carouselServices" class="carousel slide" data-ride="carousel">
-      <!-- Indicadores -->
-      <ul class="carousel-indicators">
-        <li data-target="#carouselServices" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselServices" data-slide-to="1"></li>
-        <li data-target="#carouselServices" data-slide-to="2"></li>
-      </ul>
+				<!-- Solo usé imagenes referenciales, lo ideal acá es poner imagenes de trabajos reales hechos en el taller -->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="../assets/img/slides/slide_st_0.jpg" class="w-100 d-block" alt="Servicio 1">
+						<div class="carousel-caption">
+							<h3>Calibración</h3>
+							<p>Ofrecemos servicios de calibración de instrumentos musicales para garantizar un sonido
+								óptimo y preciso.</p>
+						</div>
+					</div>
+					
 
-      <!-- Solo usé imagenes referenciales, lo ideal acá es poner imagenes de trabajos reales hechos en el taller -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="../assets/img/luthiercalibrandoguitarra.jpg" class="d-block w-100" alt="Servicio 1">
-          <div class="carousel-caption">
-            <h3>Calibración</h3>
-            <p>Ofrecemos servicios de calibración de instrumentos musicales para garantizar un sonido óptimo y preciso.</p>
-          </div>
-        </div>
+					<div class="carousel-item">
+						<img src="../assets/img/slides/slide_st_2.jpg" class="w-100 d-block" alt="Servicio 2">
+						<div class="carousel-caption">
+							<h3>Rectificación</h3>
+							<p>Optimizamos la experiencia musical con nuestro servicio de rectificación de trastes para
+								guitarra y bajo eléctrico. Eliminamos cualquier irregularidad para garantizar un tacto
+								suave y una entonación perfecta, permitiéndote disfrutar al máximo de tu instrumento.
+							</p>
+						</div>
+					</div>
 
-        <div class="carousel-item">
-          <img src="../assets/img/rectificaciondefrets.jpg" class="d-block w-100" alt="Servicio 2">
-          <div class="carousel-caption">
-            <h3>Rectificación</h3>
-            <p>Optimizamos la experiencia musical con nuestro servicio de rectificación de trastes para guitarra y bajo eléctrico. Eliminamos cualquier irregularidad para garantizar un tacto suave y una entonación perfecta, permitiéndote disfrutar al máximo de tu instrumento.</p>
-          </div>
-        </div>
+					<div class="carousel-item">
+						<img src="../assets/img/slides/slide_st_3.jpg" class="w-100 d-block" alt="Servicio 3">
+						<div class="carousel-caption">
+							<h3>Mantención general</h3>
+							<p>Potencia el rendimiento de tus instrumentos musicales con nuestro servicio de
+								mantenimiento de electrónica. Nuestros expertos cuidan cada detalle para asegurar un
+								funcionamiento óptimo de los circuitos y componentes electrónicos, manteniendo tu equipo
+								en condiciones óptimas de sonido y fiabilidad.</p>
+						</div>
+					</div>
+				</div>
 
-        <div class="carousel-item">
-          <img src="../assets/img/soldandocircuito.jpg" class="d-block w-100" alt="Servicio 3">
-          <div class="carousel-caption">
-            <h3>Mantención general</h3>
-            <p>Potencia el rendimiento de tus instrumentos musicales con nuestro servicio de mantenimiento de electrónica. Nuestros expertos cuidan cada detalle para asegurar un funcionamiento óptimo de los circuitos y componentes electrónicos, manteniendo tu equipo en condiciones óptimas de sonido y fiabilidad.</p>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Controles de carrusel -->
-      <a class="carousel-control-prev" href="#carouselServices" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Anterior</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselServices" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Siguiente</span>
-      </a>
-    
-    </div>
-  </div>
-</section>
-
-<!-- jQuery y Bootstrap JS -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+				<!-- Controles de carrusel -->
+				<a class="carousel-control-prev" href="#carouselServices" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Anterior</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselServices" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Siguiente</span>
+				</a>
+			</div>
+		</div>
+	</section>
 
 
-    <footer>
-        <p>© Derechos de Autor Ignacio Gabler &copy; 2024 - Instrumentos 1371</p>
-    </footer>
+
+	<footer>
+		<p>© Derechos de Autor Ignacio Gabler &copy; 2024 - Instrumentos 1371</p>
+	</footer>
+
+	<!-- jQuery y Bootstrap JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
