@@ -174,4 +174,11 @@ footer p {
   border: solid black 4px;
 }
 
+.text-center {
+  background-color: #5c5959;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 252, 252, 0.1);
+  opacity: 0.9;
+}
 /*# sourceMappingURL=main.css.map */
